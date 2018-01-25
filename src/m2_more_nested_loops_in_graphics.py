@@ -8,7 +8,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 import rosegraphics as rg
 
- 
+
 def main():
     """ Calls the other functions to test them. """
     run_test_draw_upside_down_wall()

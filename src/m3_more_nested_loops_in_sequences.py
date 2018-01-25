@@ -5,7 +5,7 @@ in the context of SEQUENCES OF SUB-SEQUENCES.
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Hannah Levine.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
-
+ 
 
 def main():
     """ Calls the other functions to test them. """
