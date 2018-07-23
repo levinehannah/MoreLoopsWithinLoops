@@ -79,13 +79,13 @@ def largest_number(seq_seq):
     # DONE: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     # ------------------------------------------------------------------
-    large = None
+    grande = None
 
     for items in seq_seq:
         for item in items:
-            if large == None or item > large:
-                large = item
-    return large
+            if grande == None or item > grande:
+                grande = item
+    return grande
 
 def run_test_largest_negative_number():
     """ Tests the    largest_negative_number    function. """
@@ -147,17 +147,17 @@ def largest_negative_number(seq_seq):
     #   being constructed (so the SPACE allowed is limited to the
     #   give sequence of sequences plus any non-list variables you want).
     # ------------------------------------------------------------------
-    large = None
+    lrg = None
 
     for items in seq_seq:
         for item in items:
-            if large == None and item < 0:
-                large = item
+            if lrg == None and item < 0:
+                lrg = item
 
-            elif item < 0 and item > large:
-                large = item
-                print(large)
-    return large
+            elif item < 0 and item > lrg:
+                lrg = item
+                print(lrg)
+    return lrg
 
 def run_test_first_is_elsewhere_too():
     """ Tests the    first_is_elsewhere_too    function. """
