@@ -320,7 +320,7 @@ def run_test_numbers_increasing_forward():
 
     print('Test 5 of numbers_increasing_forward: (2, 1)')
     numbers_increasing_forward(2, 1)
-
+  
 
 def numbers_increasing_forward(r, maxnum):
     """
